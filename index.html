@@ -1,44 +1,50 @@
 <!doctype html>
 <html lang="es">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Consulta la carta de La Parada Express y encuentra el restaurante en Google Maps.">
-<meta name="theme-color" content="#163c2b">
+<meta name="theme-color" content="#123a2a">
+<meta name="description" content="Carta de La Parada Express. Consulta productos, precios y ubicación.">
 <title>La Parada Express · Carta</title>
-<link rel="icon" href="assets/logo.webp">
 <link rel="stylesheet" href="style.css">
+</head>
+<body>
 <header>
-  <a href="./" aria-label="La Parada Express, inicio"><img src="assets/logo.webp" alt="" width="219" height="151"></a>
-  <a class="location" href="https://maps.app.goo.gl/2WVdsmBo35QxET7w6">Cómo llegar ↗</a>
+  <div class="cover"></div>
+  <div class="brand wrap">
+    <img src="assets/logo.png" width="1510" height="1041" alt="Logotipo de La Parada Express">
+    <div><h1>La Parada Express</h1>
+      <div class="links"><a href="https://maps.app.goo.gl/2WVdsmBo35QxET7w6">Cómo llegar ↗</a><a href="assets/carta.pdf">Carta en PDF ↗</a><a href="#horario">Horario e Instagram</a></div>
+    </div>
+  </div>
 </header>
-<main id="carta">
-  <section class="hero" aria-labelledby="titulo">
-    <div class="intro">
-      <h1 id="titulo">La Parada<br> <em>Express</em></h1>
-      <p>Desayunos, bocadillos y platos para compartir.</p>
-      <a class="button" href="#comida">Ver la carta ↓</a>
-    </div>
-    <img class="hero-image" src="assets/picada.webp" width="404" height="208" alt="Picada con carne, patacones, queso y patatas fritas">
-  </section>
-  <section class="menu" aria-labelledby="menu-titulo">
-    <div class="menu-top">
-      <h2 id="menu-titulo">Nuestra carta</h2>
-      <a href="assets/carta.pdf">Abrir PDF ↓</a>
-    </div>
-    <nav aria-label="Secciones de la carta">
-      <a href="#comida">Comida</a><a href="#bebidas">Cafés y bebidas</a>
-    </nav>
-    <div class="pages">
-      <article id="comida">
-        <h3>Comida</h3>
-        <a href="assets/comida.webp" aria-label="Ampliar carta de comida"><img src="assets/comida.webp" width="864" height="1246" alt="Carta de bocadillos, bollería, tostadas, arepas, desayunos, ensaladas y platos"></a>
-      </article>
-      <article id="bebidas">
-        <h3>Cafés y bebidas</h3>
-        <a href="assets/bebidas.webp" aria-label="Ampliar carta de cafés y bebidas"><img src="assets/bebidas.webp" width="1087" height="1536" alt="Carta de cafés, tés, zumos, batidos, bowls, matcha, cervezas y refrescos" loading="lazy"></a>
-      </article>
-    </div>
-  </section>
+<nav aria-label="Categorías de la carta"><div class="wrap nav-scroll"><a href="#bocadillos">Bocadillos</a><a href="#desayunos">Desayuno fit</a><a href="#tostadas">Tostadas de semillas</a><a href="#arepas">Arepas</a><a href="#platos">Ensaladas y platos</a><a href="#bolleria">Bollería y dulces</a><a href="#cafes">Cafés</a><a href="#tes">Tés e infusiones</a><a href="#zumos">Zumos naturales</a><a href="#batidos">Batidos naturales</a><a href="#bowls">Bowls</a><a href="#matcha">Matcha</a><a href="#refrescos">Refrescos para llevar</a><a href="#cervezas">Cervezas</a></div></nav>
+<main id="comida" class="wrap">
+  <section id="bocadillos"><h2>Bocadillos</h2><p class="section-note">Pitufo normal o integral · Mollete de Antequera normal o integral · Baguette y arepas</p><img class="section-photo" src="assets/bocadillos.webp" alt="" loading="lazy"><ul><li><div><h3>La Parada Express</h3><p>Pollo, tomate, lechuga, queso y cebolla especial</p></div><span>5,90 € / 6,90 €</span></li><li><div><h3>Serranito</h3><p>Pollo o cerdo con pimiento asado</p></div><span>5,90 € / 6,90 €</span></li><li><div><h3>Aceite y tomate</h3></div><span>2,90 € / 3,90 €</span></li><li><div><h3>Mantequilla y mermelada</h3></div><span>2,80 € / 3,80 €</span></li><li><div><h3>Mixto de jamón o pavo</h3></div><span>4,80 € / 6,80 €</span></li><li><div><h3>Bacon y queso</h3></div><span>4,80 € / 6,90 €</span></li><li><div><h3>Pollo, aguacate y tomate</h3></div><span>5,90 € / 6,90 €</span></li><li><div><h3>Atún, tomate y lechuga</h3></div><span>5,90 € / 6,90 €</span></li><li><div><h3>Huevo, aguacate y tomate</h3></div><span>5,90 € / 6,90 €</span></li><li><div><h3>Catalana de tomate y jamón serrano</h3></div><span>4,80 € / 5,80 €</span></li><li><div><h3>Pavo, tomate y aguacate</h3></div><span>4,80 € / 6,80 €</span></li><li><div><h3>Carne mechada y huevo</h3></div><span>6,90 € / 9,90 €</span></li><li><div><h3>Pan de semillas</h3></div><span>0,30 €</span></li><li><div><h3>Extras de bocadillos</h3><p>Huevo, aguacate, tomate, bacon, jamón, pavo o pollo</p></div><span>0,80 € / 1,00 €</span></li></ul></section><section id="desayunos"><h2>Desayuno fit</h2><ul><li><div><h3>Desayuno fit</h3><p>Dos huevos, pavo, aguacate, tomate y tostada. Tortilla francesa, omelette o huevos fritos.</p></div><span>6,90 €</span></li></ul></section><section id="tostadas"><h2>Tostadas de semillas</h2><ul><li><div><h3>Mantequilla y mermelada</h3></div><span>3,80 €</span></li><li><div><h3>Tomate y aceite</h3></div><span>3,50 €</span></li><li><div><h3>Tomate y jamón serrano</h3></div><span>4,90 €</span></li><li><div><h3>Tomate, queso y rúcula</h3></div><span>4,90 €</span></li><li><div><h3>Zurrapa de lomo</h3></div><span>3,90 €</span></li><li><div><h3>Zurrapa de carne</h3></div><span>3,90 €</span></li><li><div><h3>Aguacate y pavo</h3></div><span>4,80 €</span></li><li><div><h3>Aguacate, cherry y rúcula</h3></div><span>3,90 €</span></li><li><div><h3>Aguacate, salmón y rúcula</h3></div><span>6,90 €</span></li><li><div><h3>Queso crema y salmón</h3></div><span>6,90 €</span></li><li><div><h3>Huevo, aguacate, cherry y rúcula</h3></div><span>6,90 €</span></li><li><div><h3>Queso, aguacate, cherry y frutos secos</h3></div><span>6,90 €</span></li></ul></section><section id="arepas"><h2>Arepas</h2><img class="section-photo" src="assets/arepas.webp" alt="" loading="lazy"><ul><li><div><h3>Pollo y guacamole</h3></div><span>10,90 €</span></li><li><div><h3>Carne mechada</h3></div><span>10,90 €</span></li><li><div><h3>Queso y jamón o pavo</h3></div><span>10,90 €</span></li><li><div><h3>Huevo revuelto</h3></div><span>10,90 €</span></li><li><div><h3>Chicharrón</h3></div><span>10,90 €</span></li><li><div><h3>Queso y plátano</h3></div><span>10,90 €</span></li></ul></section><section id="platos"><h2>Ensaladas y platos</h2><ul><li><div><h3>Ensalada mixta</h3><p>Lechuga, maíz, tomate, atún y zanahoria</p></div><span>10,90 €</span></li><li><div><h3>Ensalada César</h3><p>Pollo, lechuga, queso, picatoste y salsa César</p></div><span>10,90 €</span></li><li><div><h3>Burrata</h3><p>Tomate, burrata y salsa pesto</p></div><span>10,90 €</span></li><li><div><h3>Ensalada de quinoa</h3><p>Quinoa, pollo a la plancha, lechuga, cebolla, tomate cherry y pepino</p></div><span>10,90 €</span></li><li><div><h3>Hamburguesa completa</h3><p>Ternera, queso, bacon, cebolla caramelizada y tomate, con patatas fritas o ensalada</p></div><span>12,90 €</span></li><li><div><h3>Pollo a la plancha</h3><p>Pechugas con patatas o ensalada</p></div><span>10,90 €</span></li><li><div><h3>Batata o boniato</h3><p>Batata, burrata, pesto y huevo o pollo</p></div><span>12,90 €</span></li><li><div><h3>Picada pequeña o grande</h3><p>Chicharrón, bacon, patacones, queso, patatas fritas, lechuga, tomate cherry, patatas chips, alioli y kétchup</p></div><span>15,00 € / 25,00 €</span></li></ul></section><section id="bolleria"><h2>Bollería y dulces</h2><img class="section-photo" src="assets/bolleria.webp" alt="" loading="lazy"><ul><li><div><h3>Croissant solo</h3></div><span>2,80 €</span></li><li><div><h3>Croissant con mantequilla</h3></div><span>3,20 €</span></li><li><div><h3>Croissant mixto</h3></div><span>3,90 €</span></li><li><div><h3>Crepes de Nutella</h3></div><span>5,50 €</span></li><li><div><h3>Crepes de Nutella y fruta</h3><p>Plátano, fresa o arándanos</p></div><span>7,50 €</span></li><li><div><h3>Bola de helado</h3></div><span>1,00 €</span></li><li><div><h3>Napolitanas</h3></div><span>2,20 €</span></li><li><div><h3>Napolitanas pequeñas</h3></div><span>1,20 €</span></li><li><div><h3>Tartaletas</h3><p>Manzana, membrillo, fresa o arándanos</p></div><span>3,80 €</span></li><li><div><h3>Tarta de zanahoria casera</h3></div><span>4,80 €</span></li><li><div><h3>Empanadas de pollo o ternera</h3></div><span>3,50 €</span></li><li><div><h3>Cannolo siciliano</h3><p>Pistacho o chocolate</p></div><span>3,50 €</span></li></ul></section><section id="cafes"><h2>Cafés</h2><p class="section-note">Leche especial +0,30 €</p><img class="section-photo" src="assets/cafes.webp" alt="" loading="lazy"><ul><li><div><h3>Café espresso</h3></div><span>1,70 €</span></li><li><div><h3>Café cortado</h3></div><span>1,80 €</span></li><li><div><h3>Café sombra</h3></div><span>2,00 €</span></li><li><div><h3>Café con leche</h3></div><span>2,00 €</span></li><li><div><h3>Café bombón</h3></div><span>2,50 €</span></li><li><div><h3>Café americano</h3></div><span>1,80 €</span></li><li><div><h3>Cappuccino</h3></div><span>2,95 €</span></li><li><div><h3>Latte macchiato</h3></div><span>2,50 €</span></li><li><div><h3>Latte caramelo</h3></div><span>3,50 €</span></li><li><div><h3>ColaCao pequeño</h3></div><span>2,00 €</span></li><li><div><h3>ColaCao grande</h3></div><span>2,80 €</span></li><li><div><h3>Café para llevar</h3></div><span>2,00 €</span></li><li><div><h3>Café frappé</h3></div><span>5,80 €</span></li></ul></section><section id="tes"><h2>Tés e infusiones</h2><ul><li><div><h3>Té o infusión</h3><p>Té verde, té negro, manzanilla, menta poleo o frutos rojos</p></div><span>2,00 €</span></li><li><div><h3>Té con leche</h3></div><span>2,50 €</span></li></ul></section><section id="zumos"><h2>Zumos naturales</h2><img class="section-photo" src="assets/zumos.webp" alt="" loading="lazy"><ul><li><div><h3>Zumo de naranja pequeño</h3></div><span>3,80 €</span></li><li><div><h3>Zumo de naranja grande</h3></div><span>5,80 €</span></li></ul></section><section id="batidos"><h2>Batidos naturales</h2><p class="section-note">Con agua, leche o zumo de manzana</p><ul><li><div><h3>Frutos rojos</h3></div><span>5,90 €</span></li><li><div><h3>Verde detox</h3></div><span>5,90 €</span></li><li><div><h3>Verdes Energy</h3></div><span>5,90 €</span></li><li><div><h3>Fresa y plátano</h3></div><span>5,90 €</span></li><li><div><h3>Coco y piña</h3></div><span>5,90 €</span></li><li><div><h3>Mango y piña</h3></div><span>5,90 €</span></li><li><div><h3>Arándanos</h3></div><span>5,90 €</span></li><li><div><h3>Fresa</h3></div><span>5,90 €</span></li></ul></section><section id="bowls"><h2>Bowls</h2><img class="section-photo" src="assets/bowls.webp" alt="" loading="lazy"><ul><li><div><h3>Bowl fit</h3><p>Yogur griego natural, granola y frutas a elegir: plátano, arándanos, kiwi, fresas o frambuesas</p></div><span>9,90 €</span></li><li><div><h3>Bowl de açaí</h3><p>Granola y frutas a elegir: plátano, fresas, arándanos, kiwi o frambuesa</p></div><span>11,90 €</span></li></ul></section><section id="matcha"><h2>Matcha</h2><ul><li><div><h3>Té matcha solo</h3></div><span>4,90 €</span></li><li><div><h3>Latte matcha</h3></div><span>5,80 €</span></li><li><div><h3>Matcha con sirope de frutas</h3></div><span>6,90 €</span></li><li><div><h3>Extra de topping</h3></div><span>1,00 €</span></li><li><div><h3>Extra de leche vegetal</h3></div><span>1,00 €</span></li></ul></section><section id="refrescos"><h2>Refrescos para llevar</h2><ul><li><div><h3>Agua mineral pequeña</h3></div><span>1,20 €</span></li><li><div><h3>Agua con gas</h3></div><span>2,00 €</span></li><li><div><h3>Agua grande</h3></div><span>2,00 €</span></li><li><div><h3>Coca-Cola</h3></div><span>2,00 €</span></li><li><div><h3>Coca-Cola Zero</h3></div><span>2,00 €</span></li><li><div><h3>Fanta naranja</h3></div><span>2,00 €</span></li><li><div><h3>Fanta limón</h3></div><span>2,00 €</span></li><li><div><h3>Sprite</h3></div><span>2,00 €</span></li><li><div><h3>Aquarius limón</h3></div><span>2,00 €</span></li><li><div><h3>Aquarius naranja</h3></div><span>2,00 €</span></li><li><div><h3>Aquarius manzana kiwi</h3></div><span>2,00 €</span></li><li><div><h3>Aquarius granada açaí</h3></div><span>2,00 €</span></li><li><div><h3>Nestea maracuyá</h3></div><span>2,00 €</span></li><li><div><h3>Nestea limón</h3></div><span>2,00 €</span></li><li><div><h3>Monster</h3></div><span>3,00 €</span></li><li><div><h3>Red Bull</h3></div><span>2,50 €</span></li><li><div><h3>Zumos de botella</h3><p>Manzana, piña o melocotón</p></div><span>2,50 €</span></li><li><div><h3>Batido de fresa</h3></div><span>2,80 €</span></li><li><div><h3>Batido de chocolate</h3></div><span>3,20 €</span></li><li><div><h3>Batido de vainilla</h3></div><span>2,80 €</span></li></ul></section><section id="cervezas"><h2>Cervezas</h2><ul><li><div><h3>Lata para llevar</h3></div><span>1,80 €</span></li><li><div><h3>Cruzcampo lata</h3></div><span>2,00 €</span></li><li><div><h3>Corona</h3></div><span>3,50 €</span></li><li><div><h3>Heineken</h3></div><span>3,50 €</span></li><li><div><h3>Mahou 0,0</h3></div><span>3,50 €</span></li><li><div><h3>Mahou tostada</h3></div><span>3,50 €</span></li><li><div><h3>Mahou Radler</h3></div><span>3,50 €</span></li><li><div><h3>Mahou sin gluten</h3></div><span>3,50 €</span></li></ul></section>
 </main>
-<footer><span>La Parada Express</span><a href="https://maps.app.goo.gl/2WVdsmBo35QxET7w6">Abrir en Google Maps ↗</a></footer>
+<aside id="horario" class="visit wrap" aria-labelledby="visit-title">
+  <div class="visit-card">
+    <img class="visit-photo" src="assets/picada.webp" alt="Picada de La Parada Express" width="404" height="208" loading="lazy">
+    <div class="visit-content">
+      <h2 id="visit-title">La Parada Express</h2>
+      <h3>Horario de apertura</h3>
+      <dl class="hours-list">
+        <div><dt>Lunes</dt><dd><time datetime="08:00">08:00</time>–<time datetime="21:00">21:00</time></dd></div>
+        <div><dt>Martes</dt><dd><time datetime="08:00">08:00</time>–<time datetime="21:00">21:00</time></dd></div>
+        <div><dt>Miércoles</dt><dd><time datetime="08:00">08:00</time>–<time datetime="21:00">21:00</time></dd></div>
+        <div><dt>Jueves</dt><dd><time datetime="08:00">08:00</time>–<time datetime="21:00">21:00</time></dd></div>
+        <div><dt>Viernes</dt><dd><time datetime="08:00">08:00</time>–<time datetime="21:00">21:00</time></dd></div>
+        <div><dt>Sábado</dt><dd><time datetime="08:00">08:00</time>–<time datetime="21:00">21:00</time></dd></div>
+        <div><dt>Domingo</dt><dd><time datetime="08:00">08:00</time>–<time datetime="21:00">21:00</time></dd></div>
+      </dl>
+      <div class="visit-links">
+        <a href="https://maps.app.goo.gl/2WVdsmBo35QxET7w6">Ver en Google Maps ↗</a>
+        <a href="https://www.instagram.com/laparadaexpress.takeaway/">Instagram ↗ <span>@laparadaexpress.takeaway</span></a>
+      </div>
+    </div>
+  </div>
+</aside>
+<footer class="wrap"><a href="#comida">Volver al inicio de la carta ↑</a></footer>
+<script src="menu.js" defer></script>
+</body>
 </html>
