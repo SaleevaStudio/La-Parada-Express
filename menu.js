@@ -24,3 +24,8 @@ function updateCategory() {
 window.addEventListener('scroll', updateCategory, { passive: true });
 window.addEventListener('load', updateCategory);
 updateCategory();
+
+const contactPanel = document.getElementById('horario');
+document.getElementById('open-contact').addEventListener('click', () => {
+  contactPanel.showModal();
+});
