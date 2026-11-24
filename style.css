@@ -71,3 +71,7 @@ button:focus-visible { outline:2px solid #9f2d19; outline-offset:2px; }
 
 .menu-photo-compact { max-width:430px; justify-self:center; }
 li > .menu-photos { grid-column:1 / -1; margin:0 0 2px; }
+
+.italian-ribbon { display:block; width:100%; height:clamp(21px,4.5vw,48px); pointer-events:none; }
+body { border-inline:3px solid transparent; border-image:linear-gradient(to bottom,#167247 0 33.33%,#fff 33.33% 66.66%,#bc272e 66.66%) 1; }
+.menu-photo { background:transparent; border:0; box-shadow:none; }
