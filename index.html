@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Consulta la carta de La Parada Express y encuentra el restaurante en Google Maps.">
+<meta name="theme-color" content="#163c2b">
+<title>La Parada Express · Carta</title>
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="style.css">
+<header>
+  <a href="./" aria-label="La Parada Express, inicio"><img src="assets/logo.webp" alt="" width="219" height="151"></a>
+  <a class="location" href="https://maps.app.goo.gl/2WVdsmBo35QxET7w6">Cómo llegar ↗</a>
+</header>
+<main id="carta">
+  <section class="hero" aria-labelledby="titulo">
+    <div class="intro">
+      <h1 id="titulo">La Parada<br> <em>Express</em></h1>
+      <p>Desayunos, bocadillos y platos para compartir.</p>
+      <a class="button" href="#comida">Ver la carta ↓</a>
+    </div>
+    <img class="hero-image" src="assets/picada.webp" width="404" height="208" alt="Picada con carne, patacones, queso y patatas fritas">
+  </section>
+  <section class="menu" aria-labelledby="menu-titulo">
+    <div class="menu-top">
+      <h2 id="menu-titulo">Nuestra carta</h2>
+      <a href="assets/carta.pdf">Abrir PDF ↓</a>
+    </div>
+    <nav aria-label="Secciones de la carta">
+      <a href="#comida">Comida</a><a href="#bebidas">Cafés y bebidas</a>
+    </nav>
+    <div class="pages">
+      <article id="comida">
+        <h3>Comida</h3>
+        <a href="assets/comida.webp" aria-label="Ampliar carta de comida"><img src="assets/comida.webp" width="864" height="1246" alt="Carta de bocadillos, bollería, tostadas, arepas, desayunos, ensaladas y platos"></a>
+      </article>
+      <article id="bebidas">
+        <h3>Cafés y bebidas</h3>
+        <a href="assets/bebidas.webp" aria-label="Ampliar carta de cafés y bebidas"><img src="assets/bebidas.webp" width="1087" height="1536" alt="Carta de cafés, tés, zumos, batidos, bowls, matcha, cervezas y refrescos" loading="lazy"></a>
+      </article>
+    </div>
+  </section>
+</main>
+<footer><span>La Parada Express</span><a href="https://maps.app.goo.gl/2WVdsmBo35QxET7w6">Abrir en Google Maps ↗</a></footer>
+</html>
