@@ -75,3 +75,6 @@ li > .menu-photos { grid-column:1 / -1; margin:0 0 2px; }
 .italian-ribbon { display:block; width:100%; height:clamp(21px,4.5vw,48px); pointer-events:none; }
 body { border-inline:3px solid transparent; border-image:linear-gradient(to bottom,#167247 0 33.33%,#fff 33.33% 66.66%,#bc272e 66.66%) 1; }
 .menu-photo { background:transparent; border:0; box-shadow:none; }
+
+.italian-ribbon { height:auto; max-height:56px; }
+.ribbon-bottom { max-height:65px; }
